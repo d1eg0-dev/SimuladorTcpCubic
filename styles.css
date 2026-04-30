@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background: #f0f2f5;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  grid-column: span 2;
+  padding: 10px;
+  cursor: pointer;
+}
+
+canvas {
+  background: white;
+  border: 1px solid #ccc;
+}
